@@ -47,3 +47,18 @@ h2{
     margin-bottom: 30px;
     text-align: center;
 }
+.contact-section{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.contact-links{
+    display: flex;
+    gap: 80px;
+}
+
+.contact-links a{
+    color: #ffffff;
+}
+
