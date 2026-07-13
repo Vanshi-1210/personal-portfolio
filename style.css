@@ -1,3 +1,7 @@
+body {
+    background-color: #0f0f11; 
+    color: #ffffff;            
+}
 header{
     position: fixed;
     width: 100%;
@@ -38,4 +42,46 @@ ul a:hover{
     text-decoration: none;
      color: #00ff80;
      padding-left: 10px;
+}
+
+#home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.2rem;
+}
+.hero-content h2{
+    color: #00ff80;;
+}
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;       /* Bold look ke liye */
+    margin-bottom: 0.5rem;  /* Neeche h2 se thoda gap rakhne ke liye */
+    color: #ffffff;
+}
+.hero-image{
+    img{
+        height:320px ;
+        width: 320px;
+        border-radius: 50%;
+        border: 3px solid #00ff80;
+        box-shadow: 0 0 25px rgba(0, 255, 128, 0.6);
+    }
+}
+.hero-content a{
+ text-decoration: none; 
+ background-color: #00ff80; 
+ color: #000; 
+ padding: 10px 20px; 
+ border-radius: 5px; 
+ font-weight: bold;
 }
