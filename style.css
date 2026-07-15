@@ -103,3 +103,16 @@ ul a:hover{
     max-width: 1200px;
     margin: 0 auto;
 }
+.skill-card{
+    background-color: #1a1a1f;
+    border: 1px solid #2a2a35;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: left;
+}
+.skill-card h3{
+    color:#00ff80
+}
+.skill-card li{
+color: white;
+}
