@@ -85,3 +85,14 @@ ul a:hover{
  border-radius: 5px; 
  font-weight: bold;
 }
+
+#skills{
+    padding: 80px 2rem;
+    text-align: center;
+}
+#skills h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color:#ffffff;
+    margin-bottom: 3rem;
+}
