@@ -127,3 +127,17 @@ color: #cccccc;
     border-color: #00ff80;
     box-shadow: 0 5px 20px rgba(0, 255, 128, 0.2);
 }
+
+#projects{
+    #projects {
+    padding: 100px 2rem 60px;
+    text-align: center;
+}
+}
+
+#projects h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
