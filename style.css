@@ -148,3 +148,52 @@ color: #cccccc;
     max-width: 1200px;
     margin: 0 auto;
 }
+.project-card {
+    background-color: #1a1a1f;
+    border: 1px solid #2a2a35;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    border-color: #00ff80;
+    transform: translateY(-8px);
+    box-shadow: 0 5px 20px rgba(0, 255, 128, 0.15);
+}
+
+.project-tag {
+    color: #00ff80;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project-card h3 {
+    color: #ffffff;
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.project-card p {
+    color: #cccccc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 2rem;
+}
+
+.project-tech span {
+    background-color: rgba(0, 255, 128, 0.1);
+    color: #00ff80;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
