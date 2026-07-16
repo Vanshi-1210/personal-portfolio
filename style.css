@@ -115,8 +115,12 @@ ul a:hover{
 .skill-card h3{
     color:#00ff80
 }
-.skill-card li{
+.skill-card p{
 color: white;
+display: flex;
+flex-wrap: wrap; 
+margin-top: 15px;
+color: #cccccc;
 }
 .skill-card:hover{
     transform: translateY(-8px);
